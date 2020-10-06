@@ -1,0 +1,91 @@
+h1 {text-align: center;
+    color: rgb(255, 107, 91);
+}
+h4 {text-align: center;
+color: rgb(10, 240, 109);
+}
+
+p {
+    text-align: justify;
+    /* text-align: center; */
+    color: rgb(1, 4, 14);
+}
+
+div.borde {
+    
+    display:block;
+    margin:auto;
+  }
+ .profile img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #a0e2df;
+    border-radius: 50%;
+  }
+
+.ema {
+    
+    color: rgb(60, 12, 233);
+  }
+
+  :hover.ema1{
+    color: rgb(71, 218, 255);
+  }
+  :hover.ema2{
+    color: rgb(71, 218, 255);
+  }
+  :hover.ema3{
+    color:rgb(71, 218, 255);
+  }
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width:500%;
+	
+	animation: cambio 15s infinite alternate linear;
+}
+
+
+.slider img {
+  widows: 100px;
+justify-content: center;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+ir-arriba{
+  display:inline-block;
+  
+  font-size:20px;
+  color:rgb(5, 80, 18);
+  cursor:pointer;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  z-index:2;
+}
+.footer {
+  text-align: center;
+  color: rgb(2, 0, 3);
+
+
+}
